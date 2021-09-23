@@ -1,0 +1,198 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "hello-express"
+      version: "0.3.2"
+      description: "müzik"
+      main: "index.js"
+      private: true
+      engines: 
+        node: "12.x"
+      dependencies: 
+        discord.js: "github:discordjs/discord.js"
+        discord.jsv2: "github:YusufByt/sadvrtru"
+        moment: "^2.27.0"
+        moment-duration-format: "^2.3.2"
+        opusscript: "0.0.7"
+        simple-youtube-api: "^5.2.1"
+        ytdl-core: "^3.1.1"
+        ytdl-core-discord: "github:amishshah/ytdl-core-discord"
+        quick.db: "^7.1.1"
+        passport: "^0.4.1"
+        express-session: "^1.17.1"
+        level-session-store: "^2.2.0"
+        passport-discord: "^0.1.4"
+        helmet: "^3.23.3"
+        marked: "^1.1.0"
+        ejs: "^3.1.3"
+        express: "^4.17.1"
+        btoa: "^1.2.1"
+        erlpack: "github:discordapp/erlpack"
+        node-opus: "^0.3.1"
+      optionalDependencies: 
+        erlpack: "discordapp/erlpack"
+        node-opus: "^0.3.1"
+      scripts: 
+        start: "node index.js"
+      license: "MIT"
+      gitHead: "b41aec2843bb81230f6449d8cab17abb167f9393"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.3.2"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/helmet/3.23.3"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport/0.4.1"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/btoa/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:deprecation: 
+    deprecated: "This project is unmaintained. See @discordjs/opus for an alternative."
+    depth: 0
+    pkgId: "registry.npmjs.org/node-opus/0.3.3"
+    pkgName: "node-opus"
+    pkgVersion: "0.3.3"
+    prefix: "/app"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-opus/0.3.3"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ejs/3.1.6"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/marked/1.2.9"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.29.1"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.7"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/simple-youtube-api/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express-session/1.17.2"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/hide-powered-by/1.1.0"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/helmet-csp/2.10.0"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/helmet-crossdomain/0.4.0"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dont-sniff-mimetype/1.1.0"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/feature-policy/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/hpkp/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/referrer-policy/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  26 error pnpm: "Could not resolve master to a commit of git://github.com/discordjs/discord.js.git."
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "found_in_store"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.7"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/x-xss-protection/1.3.0"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/hsts/2.2.0"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport-strategy/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pause/0.0.1"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/nocache/2.1.0"
+    requester: "/app"
+    status: "resolved"
